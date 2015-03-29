@@ -13,6 +13,11 @@
 		049D863F1AC31162005880D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D863E1AC31162005880D9 /* Images.xcassets */; };
 		049D86421AC31162005880D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049D86401AC31162005880D9 /* LaunchScreen.xib */; };
 		049D864E1AC31162005880D9 /* SqliteSelectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D864D1AC31162005880D9 /* SqliteSelectTests.swift */; };
+		049D86591AC3141C005880D9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 049D86581AC3141C005880D9 /* libsqlite3.dylib */; };
+		049D865D1AC470D2005880D9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D865C1AC470D2005880D9 /* CustomCell.swift */; };
+		049D865F1AC6E929005880D9 /* member.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 049D865E1AC6E929005880D9 /* member.sqlite */; };
+		049D86641AC869C7005880D9 /* smith-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 049D86631AC869C7005880D9 /* smith-font.ttf */; };
+		04DB7A331AC86FC300E229AE /* screenshots.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DB7A321AC86FC300E229AE /* screenshots.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 		049D86471AC31162005880D9 /* SqliteSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049D864C1AC31162005880D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049D864D1AC31162005880D9 /* SqliteSelectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteSelectTests.swift; sourceTree = "<group>"; };
+		049D86571AC311F5005880D9 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BridgingHeader.h; path = ../BridgingHeader.h; sourceTree = "<group>"; };
+		049D86581AC3141C005880D9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		049D865C1AC470D2005880D9 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		049D865E1AC6E929005880D9 /* member.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = member.sqlite; sourceTree = "<group>"; };
+		049D86631AC869C7005880D9 /* smith-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smith-font.ttf"; sourceTree = "<group>"; };
+		04DB7A321AC86FC300E229AE /* screenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshots.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049D86591AC3141C005880D9 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,7 @@
 				049D86341AC31162005880D9 /* SqliteSelect */,
 				049D864A1AC31162005880D9 /* SqliteSelectTests */,
 				049D86331AC31162005880D9 /* Products */,
+				04DB7A311AC86FC300E229AE /* screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +92,8 @@
 			children = (
 				049D86371AC31162005880D9 /* AppDelegate.swift */,
 				049D86391AC31162005880D9 /* ViewController.swift */,
+				049D86571AC311F5005880D9 /* BridgingHeader.h */,
+				049D865C1AC470D2005880D9 /* CustomCell.swift */,
 				049D863B1AC31162005880D9 /* Main.storyboard */,
 				049D863E1AC31162005880D9 /* Images.xcassets */,
 				049D86401AC31162005880D9 /* LaunchScreen.xib */,
@@ -90,6 +105,9 @@
 		049D86351AC31162005880D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				049D86581AC3141C005880D9 /* libsqlite3.dylib */,
+				049D865E1AC6E929005880D9 /* member.sqlite */,
+				049D86631AC869C7005880D9 /* smith-font.ttf */,
 				049D86361AC31162005880D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +128,14 @@
 				049D864C1AC31162005880D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DB7A311AC86FC300E229AE /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04DB7A321AC86FC300E229AE /* screenshots.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				049D863D1AC31162005880D9 /* Main.storyboard in Resources */,
+				049D865F1AC6E929005880D9 /* member.sqlite in Resources */,
+				049D86641AC869C7005880D9 /* smith-font.ttf in Resources */,
+				04DB7A331AC86FC300E229AE /* screenshots.png in Resources */,
 				049D86421AC31162005880D9 /* LaunchScreen.xib in Resources */,
 				049D863F1AC31162005880D9 /* Images.xcassets in Resources */,
 			);
@@ -213,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049D863A1AC31162005880D9 /* ViewController.swift in Sources */,
+				049D865D1AC470D2005880D9 /* CustomCell.swift in Sources */,
 				049D86381AC31162005880D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +369,7 @@
 				INFOPLIST_FILE = SqliteSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SqliteSelect/BridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -349,6 +380,7 @@
 				INFOPLIST_FILE = SqliteSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SqliteSelect/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -405,6 +437,7 @@
 				049D86531AC31162005880D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049D86541AC31162005880D9 /* Build configuration list for PBXNativeTarget "SqliteSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				049D86561AC31162005880D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
