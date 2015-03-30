@@ -5,15 +5,14 @@ SQLite, Read &amp; Search SQLite Database, built using Swift, SQLite, without st
 *Load & Search SQLite Database
 -------------------------------------------------------------------
 事先己透過 sqlitebrowser 這個工具完成了 member.sqlite 的文件並置入，內容為7筆連絡人資料
+
 ![image](https://github.com/Smith0314/Sqlite-Select/blob/master/screenshots/screenshots.png)
 
 .
 
 *Link With Obj-C
 -------------------------------------------------------------------
-用 Obj-C 撟接 SQLite
-
-BridgingHeader.h
+用 Obj-C 標頭檔 BridgingHeader.h 撟接 SQLite
 
     #include <sqlite3.h>
 	
