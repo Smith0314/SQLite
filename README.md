@@ -88,7 +88,7 @@ SQLite, Read &amp; Search SQLite Database, built using Swift, SQLite, without st
 -------------------------------------------------------------------
 自訂 TableViewCell 的樣式及配置
 
-class CustomCell: UITableViewCell {
+ class CustomCell: UITableViewCell {
     
     var labelId = UILabel()
     var labelName = UILabel()
@@ -140,5 +140,5 @@ class CustomCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-}
+ }
 
