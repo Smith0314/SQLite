@@ -6,6 +6,8 @@ SQLite, Read &amp; Search SQLite Database, built using Swift, SQLite, without st
 -------------------------------------------------------------------
 事先己透過 sqlitebrowser 這個工具完成了 member.sqlite 的文件並置入，內容為7筆連絡人資料
 
+可於欄位輸入編號搜尋單筆資料或直接秀出全部資料
+
 ![image](https://github.com/Smith0314/Sqlite-Select/blob/master/screenshots/screenshots.png)
 
 .
