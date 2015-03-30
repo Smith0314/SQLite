@@ -1,4 +1,4 @@
-# Sqlite-Select
+# SQLite-Swift
 SQLite, Read &amp; Search SQLite Database, built using Swift, SQLite, without storyboard
 
 
